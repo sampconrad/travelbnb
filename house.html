@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- FAVICON -->
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<!-- TITLE -->
+		<title>Travelbnb - Featured Home</title>
+		<!-- CSS FILE -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- FONT AWESOME -->
+		<script
+			src="https://kit.fontawesome.com/0d3faf735c.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!-- NAVIGATION BAR -->
+		<nav id="navBar" class="navbar-white">
+			<a href="index.html">
+				<img src="img/logo-black.png" class="logo" alt=""
+			/></a>
+			<ul class="nav-links">
+				<li><a href="index.html">Popular Destinations</a></li>
+				<li><a href="listing.html">Special Listings</a></li>
+				<li><a href="house.html" class="active">Featured Home</a></li>
+			</ul>
+			<a href="#" class="register-btn">Register Now</a>
+			<i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+		</nav>
+		<!-- END NAVIGATION BAR -->
+		<!-- CONTENT -->
+		<div class="house-details">
+			<div class="house-title">
+				<h1>John Doe's House</h1>
+				<div class="row">
+					<div>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star-half-stroke"></i>
+						<span>245 Reviews</span>
+					</div>
+					<div>
+						<p>Location: San Francisco, California - United States</p>
+					</div>
+				</div>
+			</div>
+			<div class="gallery">
+				<div class="gallery-img-1">
+					<img src="img/house-1.png" alt="" id="bigImg" />
+				</div>
+				<div><img src="img/house-2.png" alt="" class="small-img" /></div>
+				<div><img src="img/house-3.png" alt="" class="small-img" /></div>
+				<div><img src="img/house-4.png" alt="" class="small-img" /></div>
+				<div><img src="img/house-5.png" alt="" class="small-img" /></div>
+			</div>
+			<div class="small-details">
+				<h2>Entire rental unit hosted by John</h2>
+				<p>2 guests &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom</p>
+				<h4>$100 / Day</h4>
+			</div>
+			<hr class="line" />
+			<form class="check-form">
+				<div>
+					<label>Check-in</label>
+					<input type="text" placeholder="Add date" />
+				</div>
+				<div>
+					<label>Check-out</label>
+					<input type="text" placeholder="Add date" />
+				</div>
+				<div class="guest-field">
+					<label>Guest</label>
+					<input type="text" placeholder="2 guest" />
+				</div>
+				<button type="submit">Check Availability</button>
+			</form>
+			<ul class="details-list">
+				<li>
+					<i class="fa-solid fa-house-user"></i>Private Rental
+					<span>You'll have the entire flat all to yourself.</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-hand-sparkles"></i>Spotless
+					<span
+						>This location has passed TravelBNB's thorough hygiene review.</span
+					>
+				</li>
+				<li>
+					<i class="fa-solid fa-location-dot"></i>Great Location
+					<span>Praised by most reviews for its great location.</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-key"></i>Quick & Easy Check-in
+					<span
+						>Most guests gave this host's check-in experience five stars.</span
+					>
+				</li>
+			</ul>
+			<hr class="line" />
+			<p class="home-desc">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque adipisci
+				est dolorum magni assumenda quia ad sed quos esse aliquid doloremque
+				unde tenetur veniam consectetur optio, itaque sint accusamus. Sequi
+				perferendis expedita vitae aperiam suscipit itaque reprehenderit laborum
+				dolorem iste.
+			</p>
+			<hr class="line" />
+			<div class="map">
+				<h3>Map Location</h3>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2098576513963!2d-122.47866529999996!3d37.7851214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085871b1ca230a1%3A0xd19a08d7d7ca2ad2!2s101-199%2019th%20Ave%2C%20San%20Francisco%2C%20CA%2094121%2C%20USA!5e0!3m2!1sen!2sbr!4v1654796492839!5m2!1sen!2sbr"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+				<b>San Francisco, California - United States</b>
+				<p>Pretty place but hella expensive!</p>
+			</div>
+			<hr class="line" />
+			<div class="host">
+				<img src="img/host.png" alt="" />
+				<div>
+					<h2>Hosted by John</h2>
+					<p>
+						<span>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i> </span
+						>&nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response Rate: 100% &nbsp;
+						&nbsp; Response Time: 63 min
+					</p>
+				</div>
+			</div>
+			<a href="#" class="contact-host">Contact Host</a>
+		</div>
+		<!-- END CONTENT -->
+
+		<!-- FOOTER -->
+		<div class="container">
+			<div class="footer">
+				<a href="https://github.com/sampconrad"
+					><i class="fa-brands fa-github"></i
+				></a>
+				<a href="https://www.sampconrad.com/"
+					><i class="fa-solid fa-address-card"></i
+				></a>
+				<a href="https://www.linkedin.com/in/sampconrad/"
+					><i class="fa-brands fa-linkedin-in"></i
+				></a>
+				<hr />
+				<p>
+					<a href="https://www.sampconrad.com/"
+						><p>Developed by Conrado Sampaio</p></a
+					>
+				</p>
+			</div>
+		</div>
+		<!-- END FOOTER -->
+
+		<!-- JS FOR NAVBAR -->
+		<script>
+			const navBar = document.getElementById('navBar');
+
+			function togglebtn() {
+				navBar.classList.toggle('hidemenu');
+			}
+		</script>
+
+		<!-- JS FOR PRODUCT GALLERY -->
+		<script>
+			const bigImg = document.getElementById('bigImg');
+			const smallImg = document.getElementsByClassName('small-img');
+
+			smallImg[0].onclick = function () {
+				bigImg.src = smallImg[0].src;
+			};
+			smallImg[1].onclick = function () {
+				bigImg.src = smallImg[1].src;
+			};
+			smallImg[2].onclick = function () {
+				bigImg.src = smallImg[2].src;
+			};
+			smallImg[3].onclick = function () {
+				bigImg.src = smallImg[3].src;
+			};
+		</script>
+	</body>
+</html>
